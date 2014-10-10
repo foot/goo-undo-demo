@@ -1,0 +1,74 @@
+/* some style */
+html,
+body {
+  font-size: 15px;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  color: #555555;
+  text-rendering: optimizeLegibility;
+  min-width: 320px;
+}
+
+
+#entity-menu {
+	width: 100%;
+}
+
+
+#undo-menu {
+	width: 100%;
+}
+
+
+#undo-menu > .item {
+	margin-left: 100px;
+	white-space: nowrap;
+}
+
+
+#undo-menu svg {
+	float: left;
+	margin-top: 43px;
+}
+
+
+#editor {
+	font-size: 80%;
+}
+#editor textarea {
+	font-family: source-code-pro, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+#editor textarea {
+	height: 500px;
+}
+
+
+canvas {
+	width: 100%;
+	height: 400px;
+}
+
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+

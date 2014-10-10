@@ -1,0 +1,510 @@
+{
+    "1e03e05574a64611b39d8936336e9733.environment": {
+        "_readOnly": false,
+        "backgroundColor": [
+            0.3,
+            0.3,
+            0.3,
+            1
+        ],
+        "created": "2014-09-12T09:12:22+00:00",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "fog": {
+            "color": [
+                1,
+                1,
+                1
+            ],
+            "enabled": false,
+            "far": 996,
+            "near": 0
+        },
+        "globalAmbient": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "id": "1e03e05574a64611b39d8936336e9733.environment",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:22+00:00",
+        "name": "Default Environment",
+        "sound": {
+            "dopplerFactor": 0,
+            "maxDistance": 100,
+            "reverb": 0,
+            "rolloffFactor": 0.4,
+            "volume": 1
+        },
+        "weather": {
+            "snow": {
+                "enabled": false,
+                "height": 25,
+                "rate": 10,
+                "velocity": 10
+            }
+        }
+    },
+    "33a0f43192b64860a51c4e3776ac1110.entity": {
+        "_readOnly": false,
+        "components": {
+            "light": {
+                "angle": 30,
+                "color": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "direction": [
+                    0,
+                    0,
+                    0
+                ],
+                "intensity": 0.4,
+                "penumbra": 5,
+                "range": 60,
+                "shadowCaster": false,
+                "shadowSettings": {
+                    "darkness": 1,
+                    "far": 60,
+                    "fov": 55,
+                    "near": 1,
+                    "resolution": [
+                        256,
+                        256
+                    ],
+                    "shadowType": "Basic",
+                    "size": 100
+                },
+                "specularIntensity": 1,
+                "type": "DirectionalLight"
+            },
+            "transform": {
+                "rotation": [
+                    -31,
+                    129,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    15,
+                    11.6,
+                    -12.2
+                ]
+            }
+        },
+        "created": "2014-09-12T09:12:22+00:00",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "hidden": false,
+        "id": "33a0f43192b64860a51c4e3776ac1110.entity",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:22+00:00",
+        "name": "Directional 2",
+        "static": false
+    },
+    "47700ad93c9d4129a4cdcfe67abae460.entity": {
+        "_readOnly": false,
+        "components": {
+            "light": {
+                "angle": 30,
+                "color": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "direction": [
+                    0,
+                    0,
+                    0
+                ],
+                "intensity": 0.8,
+                "penumbra": 5,
+                "range": 60,
+                "shadowCaster": false,
+                "shadowSettings": {
+                    "darkness": 1,
+                    "far": 60,
+                    "fov": 55,
+                    "near": 1,
+                    "resolution": [
+                        256,
+                        256
+                    ],
+                    "shadowType": "Basic",
+                    "size": 100
+                },
+                "specularIntensity": 1,
+                "type": "DirectionalLight"
+            },
+            "transform": {
+                "rotation": [
+                    -38,
+                    21,
+                    -18
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    16,
+                    20.5,
+                    23.3
+                ]
+            }
+        },
+        "created": "2014-09-12T09:12:22+00:00",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "hidden": false,
+        "id": "47700ad93c9d4129a4cdcfe67abae460.entity",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:22+00:00",
+        "name": "Directional",
+        "static": false
+    },
+    "5598e0c455cb4af993962692417094a9.entity": {
+        "_readOnly": false,
+        "components": {
+            "camera": {
+                "aspect": 1,
+                "far": 1000,
+                "followEditorCam": true,
+                "fov": 45,
+                "lockedRatio": false,
+                "near": 1,
+                "projectionMode": "Perspective",
+                "size": 5
+            },
+            "script": {
+                "scripts": {
+                    "f3bc0dd1d03b4db08e95b191f27aa0a8.scriptInstance": {
+                        "name": "OrbitNPan",
+                        "options": {
+                            "clampAzimuth": false,
+                            "drag": 0.9,
+                            "dragButton": "Left",
+                            "enabled": true,
+                            "lookAtDistance": 4,
+                            "maxAscent": 89.95,
+                            "maxAzimuth": 270,
+                            "maxZoomDistance": 1000,
+                            "minAscent": -89,
+                            "minAzimuth": 90,
+                            "minZoomDistance": 1,
+                            "orbitSpeed": 0.005,
+                            "panButton": "Right",
+                            "smoothness": 0.4,
+                            "whenUsed": true,
+                            "zoomSpeed": 1
+                        },
+                        "scriptRef": "GOO_ENGINE_SCRIPTS/OrbitNPanControlScript",
+                        "sortValue": 0
+                    }
+                }
+            },
+            "transform": {
+                "rotation": [
+                    -28.802552560106932,
+                    54.29912713290944,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    2.846436023712158,
+                    1.9271708726882935,
+                    2.0454375743865967
+                ]
+            }
+        },
+        "created": "2014-09-12T09:12:19.277Z",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "hidden": false,
+        "id": "5598e0c455cb4af993962692417094a9.entity",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:48+00:00",
+        "name": "Default Camera",
+        "static": false
+    },
+    "657ced2e120540e69e24796f1884b239.scene": {
+        "_readOnly": false,
+        "canvas": {
+            "mode": "Stretch"
+        },
+        "created": "2014-09-12T09:12:19.273Z",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "entities": {
+            "5598e0c455cb4af993962692417094a9.entity": {
+                "entityRef": "5598e0c455cb4af993962692417094a9.entity",
+                "sortValue": 0
+            },
+            "acb98adb1b204ca68cd8ba1f731543a4.entity": {
+                "entityRef": "acb98adb1b204ca68cd8ba1f731543a4.entity",
+                "sortValue": 1
+            },
+            "b0c87ebc129446e78019b77a2557fef8.entity": {
+                "entityRef": "b0c87ebc129446e78019b77a2557fef8.entity",
+                "sortValue": 2
+            }
+        },
+        "environmentRef": "1e03e05574a64611b39d8936336e9733.environment",
+        "id": "657ced2e120540e69e24796f1884b239.scene",
+        "initialCameraRef": "5598e0c455cb4af993962692417094a9.entity",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:44+00:00",
+        "name": "Scene",
+        "posteffectsRef": "ca57feff4ee64b779de36a97f520a95e.posteffects"
+    },
+    "acb98adb1b204ca68cd8ba1f731543a4.entity": {
+        "_readOnly": false,
+        "components": {
+            "transform": {
+                "children": {
+                    "33a0f43192b64860a51c4e3776ac1110.entity": {
+                        "entityRef": "33a0f43192b64860a51c4e3776ac1110.entity",
+                        "sortValue": 1
+                    },
+                    "47700ad93c9d4129a4cdcfe67abae460.entity": {
+                        "entityRef": "47700ad93c9d4129a4cdcfe67abae460.entity",
+                        "sortValue": 0
+                    }
+                },
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "created": "2014-09-12T09:12:22+00:00",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "hidden": false,
+        "id": "acb98adb1b204ca68cd8ba1f731543a4.entity",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:22+00:00",
+        "name": "Default Lights",
+        "static": false
+    },
+    "b0c87ebc129446e78019b77a2557fef8.entity": {
+        "_readOnly": false,
+        "components": {
+            "meshData": {
+                "shape": "Box",
+                "shapeOptions": {
+                    "textureMode": "Uniform"
+                }
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "materials": {
+                    "fcbaf44f87ea4dbcbeea9d48cb8016cd.material": {
+                        "materialRef": "fcbaf44f87ea4dbcbeea9d48cb8016cd.material",
+                        "sortValue": 0
+                    }
+                },
+                "receiveShadows": true,
+                "reflectable": true
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "created": "2014-09-12T09:12:25.400Z",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "hidden": false,
+        "id": "b0c87ebc129446e78019b77a2557fef8.entity",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:29+00:00",
+        "name": "Box",
+        "static": false
+    },
+    "binaries": [],
+    "ca57feff4ee64b779de36a97f520a95e.posteffects": {
+        "_readOnly": false,
+        "created": "2014-09-12T09:12:21+00:00",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "id": "ca57feff4ee64b779de36a97f520a95e.posteffects",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:21+00:00",
+        "name": "Post effects",
+        "posteffects": {}
+    },
+    "e4e190bc6dd44e18a0e6a538df05e102.project": {
+        "_readOnly": false,
+        "assets": {
+            "fcbaf44f87ea4dbcbeea9d48cb8016cd.material": {
+                "assetRef": "fcbaf44f87ea4dbcbeea9d48cb8016cd.material",
+                "sortValue": 0
+            }
+        },
+        "created": "2014-09-12T09:12:19.272Z",
+        "dataModelVersion": 2,
+        "deleted": false,
+        "id": "e4e190bc6dd44e18a0e6a538df05e102.project",
+        "license": "CC0",
+        "mainSceneRef": "657ced2e120540e69e24796f1884b239.scene",
+        "modified": "2014-09-12T09:12:29+00:00",
+        "name": "Goo Project",
+        "scenes": {
+            "657ced2e120540e69e24796f1884b239.scene": {
+                "sceneRef": "657ced2e120540e69e24796f1884b239.scene",
+                "sortValue": 0
+            }
+        }
+    },
+    "fcbaf44f87ea4dbcbeea9d48cb8016cd.material": {
+        "_readOnly": false,
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "created": "2014-09-12T09:12:26+00:00",
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "dataModelVersion": 2,
+        "deleted": false,
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "dualTransparency": false,
+        "flat": false,
+        "id": "fcbaf44f87ea4dbcbeea9d48cb8016cd.material",
+        "license": "CC0",
+        "modified": "2014-09-12T09:12:26+00:00",
+        "name": "Material",
+        "renderQueue": -1,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {},
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": true,
+                "value": 0.1
+            },
+            "etaRatio": {
+                "enabled": true,
+                "value": -0.5
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    0.1,
+                    0.1,
+                    0.1,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0.8,
+                    0.8,
+                    0.8,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0.6,
+                    0.6,
+                    0.6,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 64
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": false,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            },
+            "refractivity": {
+                "enabled": true,
+                "value": 0
+            },
+            "vertexColorAmount": {
+                "enabled": true,
+                "value": 1
+            },
+            "wrapSettings": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "wireframe": false
+    }
+}
